@@ -1,0 +1,89 @@
+/*html { 
+background: url('Lyuba_shadow.png') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+*/
+
+.background_image {
+    width: 800px;
+    height: 100px;
+}
+
+/* resize images */
+.background_image img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: -50px;
+    left: 50px;
+}
+
+
+#header nav ul li {
+display: inline-block;
+height: 163px;
+position: relative;
+overflow: hidden;
+background-position: top center; 
+}
+
+#header nav ul li a {
+
+font-family: 'MuseoSlab-500',sans-serif;
+font-size: 16px;
+text-transform: uppercase;
+color: #000;
+width: 105px;
+height: 163px;
+display: block;
+line-height: 163px;
+background-position: top center; 
+} 
+
+ul {
+text-align: right;
+margin-right: 20px;
+}
+
+.logo {
+background-image:url('Lyuba_Logo.png') no-repeat center center;
+display: block;
+position: relative;
+width: 97px;
+height: 163px;
+margin: 0 50px;
+}
+/*.hide {
+display: block;
+background-color: transparent;
+background-position: top left;
+background-repeat: no-repeat;
+overflow: hidden;
+text-indent: -9999px;
+text-align: left;
+font-size: 0;
+line-height: 0;
+text-decoration: none;
+}
+
+a {
+color: #2f2f2f;
+outline: 0;
+text-decoration: none;
+}
+user agent stylesheeta:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+
+.anim {
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-o-transition: all .3s;
+-ms-transition: all .3s;
+transition: all .3s;
+}
