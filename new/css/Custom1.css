@@ -1,0 +1,102 @@
+      
+    .first {
+        width: 100%;
+        height: 100%;
+        background-image: url(http://cs425729.vk.me/v425729136/4e67/6abwVXLTK9s.jpg);
+        background-attachment: fixed;
+        position:relative;
+        box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3); 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }  
+
+  
+  /*
+  //The picture is scrolling up 
+    .first {
+        max-width: 100%;
+        height: 100%;
+        background-image: url(http://cs425729.vk.me/v425729136/4e67/6abwVXLTK9s.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    */
+
+    .my_font_for_navbar {
+        font-size: 20px;
+    }
+
+    .special_hover a {
+        color: rgba(0,0,0,0.2);
+        font-weight: 700;
+        text-shadow: none;
+    }
+
+    .special_hover a::before {
+        color: #fff;
+        content: attr(data-hover);
+        position: absolute;
+        -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+        -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+        transition: transform 0.3s, opacity 0.3s;
+    }
+
+    .special_hover a:hover::before,
+    .special_hover a:focus::before {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    .my_arrow{
+        display:block;
+        width:50px;
+        height:50px;
+        position:absolute;
+        bottom:0px;
+        left:50%;
+        background-size: cover;
+        background-image:url(http://www.trueorfalsexl.net/fileadmin/templates/html/img/downarrow.png);
+    }
+    .my_arrow:hover{
+        background-color:#494949;
+        cursor:pointer;
+    }
+ 
+    #projects {
+        padding: 100px;
+        height: 100vh;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+
+    #learning {
+        padding: 100px;
+        height: 100vh;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    /*
+    .my_arrow.second{
+        display:block;
+        width:50px;
+        height:50px;
+        position:absolute;
+        bottom:0px;
+        left:50%;
+        background-size: cover;
+        background-image:url(http://www.trueorfalsexl.net/fileadmin/templates/html/img/downarrow.png);
+    }
+    .my_arrow.second:hover{
+        background-color:#494949;
+        cursor:pointer;
+    }
+    */
