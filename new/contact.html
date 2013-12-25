@@ -1,0 +1,92 @@
+
+<html>
+  <head>
+    <title>yudasinal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/custom1.css">
+
+  </head>
+
+<body>
+
+    <nav class="navbar-wrapper navbar-default navbar-fixed-top" role = "navigation">
+      <div class = "container">
+        <div class = "navbar-brand">
+          <a class="logo" href="#">LOGO</a>
+        </div>
+      <button class = "navbar-toggle" data-toggle = "collapse" data-target = "#makeMeMove">      <!--Toggle isn;t working, figure out why-->
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id = "makeMeMove">
+        <nav class = "special_hover">
+          <ul class = "nav navbar-nav navbar-right my_font_for_navbar">
+            <li><a href="index1.html#home" data-hover = "HOME">HOME</a></li>
+            <li><a href="index1.html#projects" data-hover = "ABOUT">ABOUT</a></li>
+            <li><a href="#" data-hover = "RESUME">RESUME</a></li>
+            <li><a href="#contact_info" data-hover = "CONTACT">CONTACT</a></li>
+          </ul>  
+        </nav>
+      </div>    
+    </div>       
+  </nav> 
+
+<div class = "contact">
+  <div id = "contact_info">
+    <ul>
+      <li class = "gmail">Email</li>
+      <li class = "facebook">Facebook</li>
+      <li class = "linkedin">LinkedIn</li>
+      <li class = "skype">Skype</li>
+      <li class = "github">GitHub</li>
+    </ul>
+  </div>
+  <form class="email contact_form" action="mailer.php" method="post">
+    <p>Name:</p>
+    <input type="text" name="name" />
+    <p>E-mail:</p>
+    <input type="text" name="email" />
+    <p>Subject:</p>
+    <input type="text" name="subject" />
+    <p>Message:</p>
+    <textarea name="message"></textarea></p>
+    <input class="send" type="submit" value="Send">
+  </form>
+</div>
+
+<div id = "footer" class = "panel-footer">
+  <div id = "footer-content">
+    <div id = "my_logo">
+      <h7 id="copyright">
+         <strong>© Liubou Yudasina 2013-2014</strong> 
+         Student and an aspiring coder
+      </h7>
+    </div>
+    <div id="social_section">
+      <ul>
+        <li>
+          <a href="http://www.facebook.com/liubou.yudasina" class="facebook-link" target="_blank">Facebook</a>
+        </li>
+        <li>
+          <a href="http://www.instagram.com/yudasinal" class="instagram-link" target="_blank">Instagram</a>
+        </li>
+        <li>
+          <a href="http://www.linkedin.com/yudasinal" class="linkedin-link" target="_blank">LinkedIn</a>
+        </li>
+        <li><a href="http://www.linkedin.com/yudasinal" class="github-link" target="_blank">GitHub</a></li>
+      </ul>
+  </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+  </body>
+</html>
