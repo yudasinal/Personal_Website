@@ -4539,7 +4539,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-nav > li > a {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   line-height: 20px;
 }
 
@@ -4573,6 +4573,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
   .navbar-nav > li {
     float: left;
+    padding-left: 20px;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4679,12 +4680,16 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background: #f8f8f8;
+  background: white;
   filter:alpha(opacity=50);
   -moz-opacity:0.5;
   -khtml-opacity: 0.5;
   opacity: 0.5;
   border-color: #e7e7e7;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  height: 50px;
 }
 
 .navbar-default .navbar-brand {
@@ -5759,9 +5764,8 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 
 .panel-footer {
-  padding: 10px 15px;
-  background-color: #f5f5f5;
-  border-top: 1px solid #dddddd;
+  padding: 15px 30px 10px; 
+  background-color: #4284D3;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }

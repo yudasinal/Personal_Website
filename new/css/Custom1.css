@@ -2,15 +2,35 @@
     .first {
         width: 100%;
         height: 100%;
-        background-image: url(http://cs425729.vk.me/v425729136/4e67/6abwVXLTK9s.jpg);
         background-attachment: fixed;
-        position:relative;
-        box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3); 
+        position:relative; 
+        background: url(http://cs413428.vk.me/v413428136/6bcd/tgcINgjuvmg.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    }  
+        }  
+
+    .transparent_box {
+        float: right;
+        width: 500px;
+        height: 100px;
+        background-color: black;
+        position: relative;
+        margin-top: 320px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 15px;
+        opacity: 0.5;
+        fontilter: alpha(opacity=50); 
+        -moz-opacity:0.5;
+    }
+
+    #intro_text {
+        color: white;
+        position: relative;
+        margin-left: 10px;
+    }
 
   
   /*
@@ -29,9 +49,32 @@
     */
 
     .my_font_for_navbar {
-        font-size: 20px;
+        font-size: 25px;
+        line-height: 13px;
+        font-family: young;
     }
 
+    .special_hover {
+        position: relative;
+        color: white;
+    }
+
+    .special_hover a {
+        font-weight: 1000;
+        text-shadow: none;
+        transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+    }
+
+    .special_hover a:hover {
+        -webkit-filter: brightness(0%);
+        color: blue;
+    }
+
+    /*
     .special_hover a {
         color: rgba(0,0,0,0.2);
         font-weight: 700;
@@ -55,6 +98,8 @@
         opacity: 0;
     }
 
+    */
+
     .my_arrow{
         display:block;
         width:50px;
@@ -63,10 +108,15 @@
         bottom:0px;
         left:50%;
         background-size: cover;
-        background-image:url(http://www.trueorfalsexl.net/fileadmin/templates/html/img/downarrow.png);
+        background-image:url(/Users/yudasinal1/Personal_Website/New/arrow_transparent.png);
+        transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
     }
     .my_arrow:hover{
-        background-color:#494949;
+        background-image:url(/Users/yudasinal1/Personal_Website/New/arrow.png);
         cursor:pointer;
     }
  
@@ -77,6 +127,21 @@
         margin-left: 30px;
     }
 
+    .keyboard {
+        position: relative;
+        margin-top: 50px;
+        background-color: #4284D3;
+        width: 100%;
+        height: 250px;
+    }
+
+    #citation {
+        position: relative;
+        padding: 60px 0px 0px 60px;
+    }
+
+
+
 
     #learning {
         padding: 100px;
@@ -84,7 +149,251 @@
         margin-right: 30px;
         margin-left: 30px;
     }
+
+    #footer-content {
+        position: relative;
+        height: 60px;
+        width: 1200px;
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    #my_logo {
+        position: relative;
+        height: 60px;
+        background: url(http://www.trueorfalsexl.net/fileadmin/templates/html/img/downarrow.png) no-repeat left center;
+        background-size: cover;
+        width: 60px;
+        float: left;
+        }
+
+    #copyright {
+        display: block;
+        padding-left: 85px;
+        width: 500px;
+        padding-top: 25px;
+    }
+
+    #my_logo h4>strong {
+        display: block;
+    }
+
+    #social_section {
+        float:right;
+        display: inline-block;
+        width: 550px;
+        padding-left: 30px;
+    }
+
+    #social_section ul li {
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+    .facebook-link {
+        background: url('/Users/yudasinal1/Personal_Website/New/64/facebook.png') no-repeat;
+        display: block;
+        float: left;
+        width: 63px;
+        height: 63px;
+        text-indent: -999999em;
+        transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+    }
+
+    .facebook-link:hover {
+        -webkit-filter: brightness(20%);
+    }
+
+
+    .instagram-link {
+        background: url('/Users/yudasinal1/Personal_Website/New/64/instagram.png') no-repeat;
+        display: block;
+        float: left;
+        height: 63px;
+        text-indent: -999999em;
+        width: 63px;
+        transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+    }
+
+    .instagram-link:hover {
+        -webkit-filter: brightness(20%);
+    }
+
+    .linkedin-link {
+        background: url('/Users/yudasinal1/Personal_Website/New/64/linkedin.png') no-repeat;
+        display: block;
+        float: left;
+        height: 63px;
+        text-indent: -999999em;
+        width: 63px;
+        transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+    }
+
+    .linkedin-link:hover {
+        -webkit-filter: brightness(20%);
+    }
+
+    .github-link {
+        background: url('/Users/yudasinal1/Personal_Website/New/64/kot2.png') no-repeat;
+        display: block;
+        float: left;
+        height: 63px;
+        text-indent: -999999em;
+        width: 63px;
+        transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+    }
+
+    .github-link:hover {
+        -webkit-filter: brightness(20%);
+    }
+
+    .contact {
+        width: 100%;
+        height: 80%;
+    }
+
+    .contact_form {
+        position: relative;
+        margin: 150px 0px 0px 700px;
+    }
+
+    #contact_info {
+        width: 500px;
+        position: relative;
+        float: left;
+        background-color: black;
+        height: 400px;
+        margin-left: 40px;
+        border-radius: 15px;
+    }
+
+    #contact_info ul li {
+        text-decoration: none;
+        list-style-type: none;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .gmail {
+        background: url('/Users/yudasinal1/Personal_Website/New/Flat Social Media Icons/PNG/gmail.png') no-repeat;
+        float: left;
+        width: 63px;
+        height: 63px;
+        text-indent: -999999em;
+    }
+
+    .facebook {
+        background: url('/Users/yudasinal1/Personal_Website/New/Flat Social Media Icons/PNG/facebook.png') no-repeat;
+        float: left;
+        width: 63px;
+        height: 63px;
+        text-indent: -999999em;
+    }
+    
+    .linkedin {
+        background: url('/Users/yudasinal1/Personal_Website/New/Flat Social Media Icons/PNG/linkedin.png') no-repeat;
+        float: left;
+        width: 63px;
+        height: 63px;
+        text-indent: -999999em;
+    }
+
+    .skype {
+        background: url('/Users/yudasinal1/Personal_Website/New/Flat Social Media Icons/PNG/skype.png') no-repeat;
+        float: left;
+        width: 63px;
+        height: 63px;
+        text-indent: -999999em;
+    }
+    
+
+    form.email p {
+        font-size: 15px;
+        padding: 0 0 10px 0;
+        margin: 0;
+    }
+
+    form.email input, form.email textarea {
+        font-family: Arial;
+        font-size: 15px;
+        margin: 0 0 20px 0;
+    }
+
+    form.email input {
+        background: #f5f5f5;
+        padding: 5px;
+        border: 1px solid #bbb;
+        border-radius: 5px;
+    }
+
+    form.email textarea {
+        background: #f5f5f5;
+        padding: 5px;
+        border: 1px solid #bbb;
+        border-radius: 5px;
+        width: 400px;
+        height: 100px;
+    }
+
+    form.email input.send {
+        color: #fff;
+        background: #222;
+        border: #000;
+        padding: 10px 25px 10px 25px;
+        cursor: pointer;
+    }
+
+    
+
+
+
     /*
+    .facebook-link {
+        display: block;
+        width: 50px;
+        height: 50px;
+        background: url('/Users/yudasinal1/Personal_Website/New/64/facebook.png');
+        background-repeat: no-repeat;
+    }
+
+    .social_section a {
+        -webkit-transition: opacity 0.3s ease;
+        -moz-transition: opacity 0.3s ease;
+        -o-transition: opacity 0.3s ease;
+        -ms-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        outline: none !important;
+        border: none !important;
+    }
+    */
+
+
+    /*
+    ul.panel-footer {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }   
+    
     .my_arrow.second{
         display:block;
         width:50px;
