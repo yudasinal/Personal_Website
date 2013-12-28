@@ -1,0 +1,79 @@
+#projects ul {
+	text-align: right;
+	margin-right: 10px;
+  	padding: 15px 15px;
+  	font-size: 18px;
+  	line-height: 60px;
+}
+
+#projects li {
+	display: inline-block;
+	height: 40px;
+	position: relative;
+	overflow: hidden;
+	background-position: top center; 
+}
+
+#projects ul li.line a {
+	padding: 0 30px 30px;
+	text-align: center;
+}
+
+#projects li.line a::after {
+	position: absolute;
+	top: 87%;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: black;
+	content: '';
+	opacity: 0;
+	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+	transition: height 0.3s, opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+#projects li.line a:hover::after,
+#projects li.line  a:focus::after {
+	height: 5px;
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+
+    .backimage {
+        height: 100%;
+        width: 100%;
+        background-image: url(http://cs425729.vk.me/v425729136/4e67/6abwVXLTK9s.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+/*.backimage {
+	background-image: url(http://cs425729.vk.me/v425729136/4e67/6abwVXLTK9s.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+*/
+
+.wrapper {
+  width: 1000px;
+  margin: auto;
+  clear: both;
+  z-index: 10;
+}
