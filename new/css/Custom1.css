@@ -1,10 +1,22 @@
       
+    #wrap {
+      min-height: 100%;
+      height: auto !important;
+      height: 100%;
+      /* Negative indent footer by it's height */
+      margin: 0 auto -60px;
+    }
+
+    #push {
+        height: 60px;
+    }
+
     .first {
         width: 100%;
         height: 100%;
         background-attachment: fixed;
         position:relative; 
-        background: url(http://cs413428.vk.me/v413428136/6bcd/tgcINgjuvmg.jpg) no-repeat center center fixed; 
+        background: url(http://cs413429.vk.me/v413429136/528c/NHdq8_-O3Jg.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -49,7 +61,7 @@
     */
 
     .my_font_for_navbar {
-        font-size: 25px;
+        font-size: 15px;
         line-height: 13px;
         font-family: young;
     }
@@ -121,10 +133,25 @@
     }
  
     #projects {
-        padding: 100px;
+        padding: 80px;
         height: 100vh;
-        margin-right: 30px;
-        margin-left: 30px;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    #projects h1 {
+        margin-bottom: 60px;
+    }
+
+    #projects p {
+        font-size: 25px; 
+        margin-bottom: 15px;
+        text-indent: 60px;
+
+    }
+
+    #last {
+        margin-top: 50px;
     }
 
     .keyboard {
