@@ -4490,7 +4490,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   float: left;
   padding: 15px 15px;
   font-size: 18px;
-  line-height: 60px;
+  line-height: 30px;
 }
 
 .navbar-brand:hover,
@@ -4540,7 +4540,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 0px;
-  line-height: 20px;
+  line-height: 35px;
 }
 
 @media (max-width: 767px) {
@@ -4689,7 +4689,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black;
-  height: 50px;
+  height: 55px;
 }
 
 .navbar-default .navbar-brand {
@@ -5764,7 +5764,7 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 
 .panel-footer {
-  padding: 15px 30px 10px; 
+  padding: 10px 30px 10px; 
   background-color: #4284D3;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;

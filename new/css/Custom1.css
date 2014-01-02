@@ -87,6 +87,15 @@
     }
 
     /*
+    .logo {
+        background-image: url(/Users/yudasinal1/Personal_Website/New/arrow.png);
+        width: 30px;
+        height: 30px;
+        text-indent: -999999em;
+    }
+    */
+
+    /*
     .special_hover a {
         color: rgba(0,0,0,0.2);
         font-weight: 700;
@@ -134,7 +143,7 @@
  
     #projects {
         padding: 80px;
-        height: 100vh;
+        min-height: 100vh;
         margin-right: 60px;
         margin-left: 60px;
     }
@@ -157,9 +166,15 @@
     .keyboard {
         position: relative;
         margin-top: 50px;
-        background-color: #4284D3;
         width: 100%;
         height: 250px;
+        background-image:url(/Users/yudasinal1/Personal_Website/New/22.jpg);
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
     }
 
     #citation {
@@ -172,15 +187,15 @@
 
     #learning {
         padding: 100px;
-        height: 100vh;
+        min-height: 100vh;
         margin-right: 30px;
         margin-left: 30px;
     }
 
     #footer-content {
         position: relative;
-        height: 60px;
-        width: 1200px;
+        height: 35px;
+        width: 100%;
         display: block;
         margin: 0 auto;
         overflow: hidden;
@@ -188,21 +203,22 @@
 
     #my_logo {
         position: relative;
-        height: 60px;
+        height: 30px;
         background: url(http://www.trueorfalsexl.net/fileadmin/templates/html/img/downarrow.png) no-repeat left center;
         background-size: cover;
-        width: 60px;
+        width: 30px;
         float: left;
-        }
+        padding-top: 10px; 
+    }
 
     #copyright {
         display: block;
-        padding-left: 85px;
-        width: 500px;
-        padding-top: 25px;
+        padding-left: 55px;
+        min-width: 500px;
+        padding-top: 8px;
     }
 
-    #my_logo h4>strong {
+    #copyright h4>strong {
         display: block;
     }
 
@@ -216,15 +232,16 @@
     #social_section ul li {
         text-decoration: none;
         display: inline-block;
-        margin-left: 30px;
+        margin-left: 70px;
+        margin-top: 5px;
     }
 
     .facebook-link {
-        background: url('/Users/yudasinal1/Personal_Website/New/64/facebook.png') no-repeat;
+        background: url('/Users/yudasinal1/Personal_Website/New/icons/1.png') no-repeat;
         display: block;
         float: left;
-        width: 63px;
-        height: 63px;
+        width: 30px;
+        height: 60px;
         text-indent: -999999em;
         transition: all 0.5s linear;
         -webkit-transition: all 0.5s linear;
@@ -239,12 +256,12 @@
 
 
     .instagram-link {
-        background: url('/Users/yudasinal1/Personal_Website/New/64/instagram.png') no-repeat;
+        background: url('/Users/yudasinal1/Personal_Website/New/icons/2.png') no-repeat;
         display: block;
         float: left;
-        height: 63px;
+        height: 60px;
         text-indent: -999999em;
-        width: 63px;
+        width: 30px;
         transition: all 0.5s linear;
         -webkit-transition: all 0.5s linear;
         -moz-transition: all 0.5s linear;
@@ -257,12 +274,12 @@
     }
 
     .linkedin-link {
-        background: url('/Users/yudasinal1/Personal_Website/New/64/linkedin.png') no-repeat;
+        background: url('/Users/yudasinal1/Personal_Website/New/icons/4.png') no-repeat;
         display: block;
         float: left;
-        height: 63px;
+        height: 60px;
         text-indent: -999999em;
-        width: 63px;
+        width: 30px;
         transition: all 0.5s linear;
         -webkit-transition: all 0.5s linear;
         -moz-transition: all 0.5s linear;
@@ -275,12 +292,12 @@
     }
 
     .github-link {
-        background: url('/Users/yudasinal1/Personal_Website/New/64/kot2.png') no-repeat;
+        background: url('/Users/yudasinal1/Personal_Website/New/icons/3.png') no-repeat;
         display: block;
         float: left;
-        height: 63px;
+        height: 60px;
         text-indent: -999999em;
-        width: 63px;
+        width: 30px;
         transition: all 0.5s linear;
         -webkit-transition: all 0.5s linear;
         -moz-transition: all 0.5s linear;
