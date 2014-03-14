@@ -16,7 +16,7 @@
         height: 100%;
         background-attachment: fixed;
         position:relative; 
-        background: url(http://cs608322.vk.me/v608322136/2ea5/DPTUIQV18Ic.jpg) no-repeat center center fixed; 
+        background: url(/Users/yudasinal/Documents/Website/Photos/photo_work-7750.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -25,16 +25,14 @@
 
     .transparent_box {
         float: right;
-        min-width: 100vmin;
-        min-height: 20vmin;
+        width: 70vmin;
+        height: 20vmin;
         background-color: black;
         position: relative;
         margin-top: 220px;
         margin-left: 30px;
         margin-right: 30px;
         border-radius: 15px;
-        position: fixed;
-        z-index: 0;
         opacity: 0.5;
         fontilter: alpha(opacity=50); 
         -moz-opacity:0.5;
@@ -81,7 +79,7 @@
         bottom:0px;
         left:50%;
         background-size: cover;
-        background-image:url(/Users/yudasinal1/Personal_Website/New/arrow_transparent.png);
+        background-image:url(/Users/yudasinal/Documents/Personal_Website-master/new/arrow_transparent.png);
         transition: all 0.5s linear;
         -webkit-transition: all 0.5s linear;
         -moz-transition: all 0.5s linear;
@@ -89,13 +87,19 @@
         -o-transition: all 0.5s linear;
     }
     .my_arrow:hover{
-        background-image:url(/Users/yudasinal1/Personal_Website/New/arrow.png);
+        background-image:url(/Users/yudasinal/Documents/Personal_Website-master/new/arrow.png);
         cursor:pointer;
     }
 
+    .grain {
+        background-image: url(http://cs311531.vk.me/v311531136/b93f/_DcHSI7sYIk.jpg); 
+        background-attachment: fixed;
+    }
+    /*
     .second {
         z-index: 20;
     }
+    */
  
     #projects {
         padding: 80px;
@@ -131,12 +135,46 @@
     }
 
     #learning {
+
+        width: 100%;
+        height: 100%;
+        background-attachment: fixed;
+        position:relative; 
+        background: url(http://cs311531.vk.me/v311531136/b98f/8U67rd11hoM.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        /*
         padding: 100px;
         margin-right: 30px;
         margin-left: 30px;
         width: 100%;
         height: 100%;
+        */
     }
+
+    #learning h1 {
+        padding-top: 90px;
+        padding-left: 70px;
+        color: white;
+    }
+
+    #learning h2 {
+        padding-top: 20px;
+        padding-left: 90px;
+        color: white;
+    }
+
+    #learning li {
+        display: block;
+        padding-top: 20px;
+        padding-left: 20px;
+        color: white;
+    }
+
+
 
     #footer-content {
         position: relative;
@@ -183,7 +221,7 @@
     }
 
     .facebook-link {
-        background: url('/Users/yudasinal1/Personal_Website/New/icons/1.png') no-repeat;
+        background: url('/Users/yudasinal/Documents/Personal_Website-master/new/icons/1.png') no-repeat;
         display: block;
         float: left;
         width: 30px;
@@ -345,12 +383,11 @@
 
     #mainwrapper .box {
     cursor: pointer;
-    min-height: 40%;
+    min-height: 50%;
     float: left;
     position: relative;
     overflow: hidden;
     min-width: 20%;
-    background-color: red;
     margin-right: 35px;
     margin-bottom: 20px;
 
@@ -375,6 +412,27 @@
     line-height: 150%;
 }
 
+#mainwrapper h2{
+    position: absolute;
+}
+
+#mainwrapper .box img {
+    position: absolute;
+    height: auto;
+    width: auto;
+    display: block;
+    max-width:450px;
+    max-height:200px;
+    left: 0;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out; 
+    transition: all 300ms ease-out;
+
+    opacity: 0.6;
+}
+
 
 #mainwrapper .box .caption {
     background-color: rgba(0,0,0,0.8);
@@ -391,7 +449,7 @@
 #mainwrapper .box .fade-caption{
     opacity: 0;
     min-width: 20%;
-    min-height: 40%;
+    min-height: 50%;
     padding: 20px 0px 0px 0px;
 }
 
