@@ -42,7 +42,7 @@ a {
         height: 100%;
         background-attachment: fixed;
         position:relative; 
-        background: url(/Users/yudasinal/Downloads/Personal_Website-master/new/photo.jpg) no-repeat center center fixed; 
+        background: url(/Users/yudasinal/Downloads/lyuba_final.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -55,7 +55,7 @@ a {
         height: 20vmin;
         background-color: black;
         position: relative;
-        margin: 220px 150px auto;
+        margin: 280px 130px auto;
         border-radius: 15px;
         opacity: 0.5;
         fontilter: alpha(opacity=50); 
@@ -104,7 +104,7 @@ a {
         bottom:0px;
         left:50%;
         background-size: cover;
-        background-image:url(/Users/yudasinal/Downloads/Personal_Website-master/new/arrow_transparent.png);
+        background-image:url(/Users/yudasinal/Documents/Personal_Website/new/arrow_transparent.png);
         transition: all 0.5s linear;
         -webkit-transition: all 0.5s linear;
         -moz-transition: all 0.5s linear;
@@ -112,7 +112,7 @@ a {
         -o-transition: all 0.5s linear;
     }
     .my_arrow:hover{
-        background-image:url(/Users/yudasinal/Downloads/Personal_Website-master/new/arrow.png);
+        background-image:url(/Users/yudasinal/Documents/Personal_Website/new/arrow.png);
         cursor:pointer;
     }
 
@@ -144,10 +144,6 @@ a {
         font-size: 25px; 
         margin-bottom: 15px;
         text-indent: 60px;
-    }
-
-    #projects a {
-        font-weight: bold;
     }
 
     #last {
@@ -187,7 +183,7 @@ a {
     }
 
     #learning h1 {
-        padding-top: 70px;
+        padding-top: 50px;
         padding-left: 70px;
         color: white;
     }
@@ -196,6 +192,12 @@ a {
         padding-top: 15px;
         padding-left: 90px;
         color: white;
+    }
+
+    #learning img {
+        float:right;
+        width: 10vmin;
+        height: 5vmin;
     }
 
     #learning li {
