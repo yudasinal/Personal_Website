@@ -322,13 +322,20 @@ textarea {
 }
 
 a {
-  color: #428bca;
+
+  color: #D7837F;
   text-decoration: none;
+  -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+
 }
 
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #893843;
   text-decoration: none;
 }
 
