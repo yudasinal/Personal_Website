@@ -1,4 +1,21 @@
-      
+.container:after {
+    content: '';
+    position: absolute;
+    background: #f2e2e2;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    background-image: url(https://vk.com/photo12784136_325351249);
+    width: 75px;
+    height: 75px;
+    z-index: 1;
+    border-radius: 45px;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -25px;
+    border: 3px solid #000000;  
+    -webkit-box-shadow: 0 10px 10px -6px black;
+}   
+
     #wrap {
       min-height: 100%;
       height: auto !important;
@@ -16,12 +33,12 @@
         height: 100%;
         background-attachment: fixed;
         position:relative; 
-        background: url(/Users/yudasinal/Documents/Website/Photos/photo_work-7750.jpg) no-repeat center center fixed; 
+        background: url(/Users/yudasinal/Downloads/Personal_Website-master/new/photo.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        }  
+    }  
 
     .transparent_box {
         float: right;
@@ -29,16 +46,14 @@
         height: 20vmin;
         background-color: black;
         position: relative;
-        margin-top: 220px;
-        margin-left: 30px;
-        margin-right: 30px;
+        margin: 220px 150px auto;
         border-radius: 15px;
         opacity: 0.5;
         fontilter: alpha(opacity=50); 
         -moz-opacity:0.5;
     }
 
-    #intro_text {
+    .transparent_box #intro_text {
         color: white;
         position: relative;
         margin-left: 10px;
@@ -79,7 +94,7 @@
         bottom:0px;
         left:50%;
         background-size: cover;
-        background-image:url(/Users/yudasinal/Documents/Personal_Website-master/new/arrow_transparent.png);
+        background-image:url(/Users/yudasinal/Downloads/Personal_Website-master/new/arrow_transparent.png);
         transition: all 0.5s linear;
         -webkit-transition: all 0.5s linear;
         -moz-transition: all 0.5s linear;
@@ -87,7 +102,7 @@
         -o-transition: all 0.5s linear;
     }
     .my_arrow:hover{
-        background-image:url(/Users/yudasinal/Documents/Personal_Website-master/new/arrow.png);
+        background-image:url(/Users/yudasinal/Downloads/Personal_Website-master/new/arrow.png);
         cursor:pointer;
     }
 
@@ -174,6 +189,14 @@
         color: white;
     }
 
+    .col-md-3 h2 {
+        font-size: 4vmin;
+    }
+
+    .col-md-3 li {
+
+        font-size: 1vmin;
+    }
 
 
     #footer-content {
@@ -221,7 +244,7 @@
     }
 
     .facebook-link {
-        background: url('/Users/yudasinal/Documents/Personal_Website-master/new/icons/1.png') no-repeat;
+        background: url('/Users/yudasinal/Downloads/Personal_Website-master/new/64/fb.png') no-repeat;
         display: block;
         float: left;
         width: 30px;
@@ -240,7 +263,7 @@
 
 
     .instagram-link {
-        background: url('/Users/yudasinal1/Personal_Website/New/icons/2.png') no-repeat;
+        background: url('/Users/yudasinal/Downloads/Personal_Website-master/new/64/insta.png') no-repeat;
         display: block;
         float: left;
         height: 60px;
@@ -258,7 +281,7 @@
     }
 
     .linkedin-link {
-        background: url('/Users/yudasinal1/Personal_Website/New/icons/4.png') no-repeat;
+        background: url('/Users/yudasinal/Downloads/Personal_Website-master/new/64/in.png') no-repeat;
         display: block;
         float: left;
         height: 60px;
@@ -276,7 +299,7 @@
     }
 
     .github-link {
-        background: url('/Users/yudasinal1/Personal_Website/New/icons/3.png') no-repeat;
+        background: url('/Users/yudasinal/Downloads/Personal_Website-master/new/30by30 cat.png') no-repeat;
         display: block;
         float: left;
         height: 60px;

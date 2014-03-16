@@ -1450,7 +1450,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1380px;
   }
   .col-lg-1,
   .col-lg-2,
@@ -4487,6 +4487,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-brand {
+
   float: left;
   padding: 15px 15px;
   font-size: 18px;
@@ -5761,7 +5762,7 @@ a.list-group-item.active:focus .list-group-item-text {
 
 .panel-footer {
   padding: 10px 30px 10px; 
-  background-color: #4284D3;
+  background-color: #D7837F;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
