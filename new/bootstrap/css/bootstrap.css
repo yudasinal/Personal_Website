@@ -323,7 +323,7 @@ textarea {
 
 a {
 
-  color: #ffffff;
+  color: #D7837F;
   text-decoration: none;
 }
 
@@ -5124,6 +5124,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em;
+  margin-left: .7em;
 }
 
 .label[href]:hover,

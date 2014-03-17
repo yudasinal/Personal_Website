@@ -24,7 +24,7 @@ body > .container {
     border-radius: 45px;
     bottom: -25px;
     left: 50%;
-    margin-left: -25px;
+    margin-left: -15px;
     border: 3px solid #1e0004;  
     -webkit-box-shadow: 0 10px 10px -6px black;
 }   
@@ -76,7 +76,7 @@ body > .container {
 
 
     .my_font_for_navbar {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 13px;
         font-family: Verdana, Geneva, sans-serif;
         font-weight: bold;
@@ -133,8 +133,8 @@ body > .container {
     */
  
     #projects {
-        padding: 40px;
-        min-height: 100vh;
+        padding: 90px;
+        min-height: 97vh;
         margin-right: 60px;
         margin-left: 60px;
     }
@@ -148,13 +148,18 @@ body > .container {
     #projects p {
         font-family: Verdana, Geneva, sans-serif;
         font-size: 25px; 
-        font-size: 1.9vw;
+        font-size: 1.5vw;
         margin-bottom: 15px;
         text-indent: 60px;
     }
 
     #last {
         margin-top: 30px;
+    }
+
+    #projects a {
+        font-weight: bold;
+
     }
 
 
@@ -188,7 +193,7 @@ body > .container {
     }
 
     #learning h2 {
-        padding-top: 10px;
+        padding-top: 3vmin;
         padding-left: 100px;
         color: white;
         font-weight: bold;
@@ -208,6 +213,7 @@ body > .container {
         padding-top: 15px;
         padding-left: 10px;
         color: white;
+        padding-right: -100px;
     }
 
     .col-md-3 h2 {
