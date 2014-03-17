@@ -305,7 +305,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -482,7 +482,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -552,6 +552,7 @@ h6 .small {
 h1,
 .h1 {
   font-size: 36px;
+  font-size: 3vw;
 }
 
 h2,
@@ -5118,7 +5119,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -5137,7 +5138,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .label-default {
-  background-color: #999999;
+  background-color: #f2e2e2;
 }
 
 .label-default[href]:hover,
@@ -5762,7 +5763,7 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 
 .panel-footer {
-  padding: 10px 30px 10px; 
+  padding: 1px 30px 0px; 
   background-color: #D7837F;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;

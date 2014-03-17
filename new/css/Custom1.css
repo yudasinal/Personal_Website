@@ -7,13 +7,17 @@ a {
 
 }
 
+body > .container {
+    padding-top: 60px;
+}
+
 .container:after {
     content: '';
     position: absolute;
     background: #f2e2e2;
     background-position:50% 50%;
     background-repeat:no-repeat;
-    background-image: url(https://vk.com/photo12784136_325351249);
+    background-image: url(../logo_circle.png);
     width: 75px;
     height: 75px;
     z-index: 1;
@@ -42,7 +46,7 @@ a {
         height: 100%;
         background-attachment: fixed;
         position:relative; 
-        background: url(/Users/yudasinal/Downloads/lyuba_final.jpg) no-repeat center center fixed; 
+        background: url(../lyuba_final.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -65,7 +69,9 @@ a {
     .transparent_box #intro_text {
         color: white;
         position: relative;
-        margin-left: 10px;
+        margin: 35px 10px 0px 10px;
+        font-size: 230%;
+        text-align: center;
     }
 
 
@@ -104,7 +110,7 @@ a {
         bottom:0px;
         left:50%;
         background-size: cover;
-        background-image:url(/Users/yudasinal/Documents/Personal_Website/new/arrow_transparent.png);
+        background-image:url(../arrow_transparent.png);
         transition: all 0.5s linear;
         -webkit-transition: all 0.5s linear;
         -moz-transition: all 0.5s linear;
@@ -112,7 +118,7 @@ a {
         -o-transition: all 0.5s linear;
     }
     .my_arrow:hover{
-        background-image:url(/Users/yudasinal/Documents/Personal_Website/new/arrow.png);
+        background-image:url(../arrow.png);
         cursor:pointer;
     }
 
@@ -142,6 +148,7 @@ a {
     #projects p {
         font-family: Verdana, Geneva, sans-serif;
         font-size: 25px; 
+        font-size: 1.9vw;
         margin-bottom: 15px;
         text-indent: 60px;
     }
@@ -150,16 +157,6 @@ a {
         margin-top: 30px;
     }
 
-    .keyboard img {
-        position: relative;
-        margin-top: 50px;
-        width: 100%;    
-    }
-
-    #citation {
-        position: relative;
-        padding: 60px 0px 0px 60px;
-    }
 
     #learning {
 
@@ -183,14 +180,16 @@ a {
     }
 
     #learning h1 {
-        padding-top: 50px;
+        padding-top: 80px;
         padding-left: 70px;
         color: white;
+        margin-left: 60px;
+        font-weight: bold;
     }
 
     #learning h2 {
-        padding-top: 15px;
-        padding-left: 90px;
+        padding-top: 5px;
+        padding-left: 100px;
         color: white;
     }
 
@@ -201,19 +200,23 @@ a {
     }
 
     #learning li {
+        line-height: 1.2em;
+        height: auto;
         display: block;
-        padding-top: 20px;
-        padding-left: 20px;
+        padding-top: 15px;
+        padding-left: 10px;
         color: white;
     }
 
     .col-md-3 h2 {
         font-size: 150%;
+        font-size: 1.5vw;
     }
 
     .col-md-3 li {
 
-        font-size: 90%;
+        font-size: 80%;
+        font-size: 0.9vw;
     }
 
 
@@ -241,6 +244,7 @@ a {
         padding-left: 55px;
         min-width: 500px;
         padding-top: 8px;
+        font-size: 90%;
     }
 
     #copyright h4>strong {
@@ -262,7 +266,7 @@ a {
     }
 
     .facebook-link {
-        background: url('/Users/yudasinal/Downloads/Personal_Website-master/new/64/fb.png') no-repeat;
+        background: url('../64/fb.png') no-repeat;
         display: block;
         float: left;
         width: 30px;
@@ -281,7 +285,7 @@ a {
 
 
     .instagram-link {
-        background: url('/Users/yudasinal/Downloads/Personal_Website-master/new/64/insta.png') no-repeat;
+        background: url('../64/insta.png') no-repeat;
         display: block;
         float: left;
         height: 60px;
@@ -299,7 +303,7 @@ a {
     }
 
     .linkedin-link {
-        background: url('/Users/yudasinal/Downloads/Personal_Website-master/new/64/in.png') no-repeat;
+        background: url('../64/in.png') no-repeat;
         display: block;
         float: left;
         height: 60px;
@@ -317,7 +321,7 @@ a {
     }
 
     .github-link {
-        background: url('/Users/yudasinal/Downloads/Personal_Website-master/new/30by30 cat.png') no-repeat;
+        background: url('../64/cat25.png') no-repeat;
         display: block;
         float: left;
         height: 60px;
