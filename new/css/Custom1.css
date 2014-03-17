@@ -133,14 +133,14 @@ body > .container {
     */
  
     #projects {
-        padding: 80px;
+        padding: 40px;
         min-height: 100vh;
         margin-right: 60px;
         margin-left: 60px;
     }
 
     #projects h1 {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         font-family: Verdana, Geneva, sans-serif;
         font-weight: bold;
     }
@@ -180,17 +180,18 @@ body > .container {
     }
 
     #learning h1 {
-        padding-top: 80px;
-        padding-left: 70px;
+        padding-top: 60px;
+        padding-left: 60px;
         color: white;
         margin-left: 60px;
         font-weight: bold;
     }
 
     #learning h2 {
-        padding-top: 5px;
+        padding-top: 10px;
         padding-left: 100px;
         color: white;
+        font-weight: bold;
     }
 
     #learning img {
@@ -200,9 +201,10 @@ body > .container {
     }
 
     #learning li {
-        line-height: 1.2em;
+        line-height: 1em;
         height: auto;
         display: block;
+        margin: 0;
         padding-top: 15px;
         padding-left: 10px;
         color: white;
@@ -216,7 +218,7 @@ body > .container {
     .col-md-3 li {
 
         font-size: 80%;
-        font-size: 0.9vw;
+        font-size: 1vw;
     }
 
 
